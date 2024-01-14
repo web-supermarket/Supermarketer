@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+
+<title>Supermarket Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Supermarktz</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="featured-products">
+      <h2>Featured Products</h2>
+      <!-- Add your product listings here -->
+    </section>
+
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec lorem eget mauris luctus varius ut nec elit.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: info@supermarktz.com</p>
+      <p>Phone: 123-456-7890</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2022 Supermarktz. All rights reserved.</p>
+  </footer>
+
+
+
+<style>
+  body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+  }
+  .gallery-item {
+    flex-basis: calc(33.333% - 10px);
+    margin-bottom: 10px;
+  }
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #c70000;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  @media (max-width: 600px) {
+    .gallery-item {
+      flex-basis: calc(50% - 10px);
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Supermarket Photo Gallery</h1>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="https://www.gallerysupermarket.com/mulderugynok/uploads/image/20190815_hegyhatireka_dsc_0057-copy.jpg" alt="Supermarket 1">
+  </div>
+  <div class="gallery-item">
+    <img src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9" alt="Supermarket 2">
+  </div>
+  <div class="gallery-item">
+    <img src="https://www.pembertonsupermarket.com/wp-content/uploads/2017/08/Pemberton_Valley_Supermarket_Grocery_Section.jpg" alt="Supermarket 3">
+  </div>
+  <!-- Add more photos as needed -->
+</div>
+
+</body>
+</html>
